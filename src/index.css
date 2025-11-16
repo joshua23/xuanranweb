@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply rounded-lg;
+  }
+
+  input, textarea, select, button {
+    @apply !rounded-xl;
+  }
+
+  img {
+    @apply !rounded-lg;
+  }
+}
